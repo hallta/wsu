@@ -14,7 +14,6 @@
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="../../css/impress-demo.css" rel="stylesheet" />
-    <link href="../../css/wsu.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -32,80 +31,37 @@
 
 <div id="impress">
 
-    <div class="step wsu-no-page slide" data-x="10000" data-y="0" data-rotate-y="90" data-trasition-duration="500">
-        <q>INTRO</q>
-    </div>
-
     <!-- front -->
-    <div class="step slide" data-x="0" data-y="0">
-        <q>test</q>
-        <q>test</q>
+    <div class="step slide" data-x="0" data-y="0" data-trasition-duration="500">
+        front
     </div>
 
-    <div class="step slide" data-x="1500" data-y="0">
-        <q></q>
+    <div class="step slide" data-x="1000" data-z="-750" data-y="0" data-rotate-y="90" data-trasition-duration="500">
+        right
     </div>
 
-    <div class="step slide" data-x="3000" data-y="0">
-        <q></q>
-    </div>
-    <div class="step slide" data-x="4500" data-y="0">
-        <q></q>
-    </div>
-    <div class="step slide" data-x="6000" data-y="0">
-        <q></q>
+    <div class="step slide" data-x="0" data-z="-1500" data-y="0" data-rotate-y="180" data-trasition-duration="500">
+        back
     </div>
 
-    <!-- back --> 
-    <div class="step slide" data-x="6000" data-z="-1500" data-y="0" data-rotate-y="180">
-        <q></q>
+    <div class="step slide" data-x="-750" data-z="-750" data-y="0" data-rotate-y="270" data-trasition-duration="500">
+        left
     </div>
 
-    <div class="step slide" data-x="4500" data-z="-1500" data-y="0" data-rotate-y="180">
-        <q></q>
+    <div class="step slide" data-x="0" data-z="-750" data-y="750" data-rotate-x="90" data-rotate-y="360" data-trasition-duration="500">
+        <q>bottom</q>
     </div>
 
-    <div class="step slide" data-x="3000" data-z="-1500" data-y="0" data-rotate-y="180">
-        <q></q>
+    <div class="step slide" data-x="0" data-z="-750" data-y="-750" data-rotate-x="90" data-rotate-y="360" data-trasition-duration="500">
+        top
     </div>
-    <div class="step slide" data-x="1500" data-z="-1500" data-y="0" data-rotate-y="180">
-        <q></q>
-    </div>
-    <div class="step slide" data-x="0" data-z="-1500" data-y="0" data-rotate-y="180">
-        <q></q>
-    </div>
-
-    <!-- bottom -->
-    <div class="step slide" data-x="0" data-z="-750" data-y="750" data-rotate-x="90" data-rotate-y="360">
-        <q></q>
-    </div>
-
-    <div class="step slide" data-x="1500" data-z="-750" data-y="750" data-rotate-x="90" data-rotate-y="360">
-        <q></q>
-    </div>
-
-    <div class="step slide" data-x="3000" data-z="-750" data-y="750" data-rotate-x="90" data-rotate-y="360">
-        <q></q>
-    </div>
-    <div class="step slide" data-x="4500" data-z="-750" data-y="750" data-rotate-x="90" data-rotate-y="360">
-        <q></q>
-    </div>
-    <div class="step slide" data-x="6000" data-z="-750" data-y="750" data-rotate-x="90" data-rotate-y="360">
-        <q></q>
-    </div>
-
-    <!-- end -->
-    <div data-scale="10" class="step wsu-no-page slide" data-x="-10000" data-z="-750" data-y="0" data-rotate-y="270">
-        <q></q>
-    </div>
-
 
 
 
 
 
     <!--
-    <div class="step slide" data-x="3000" data-y="0" data-scale=".5" data-rotate="90">
+    <div class="step slide" data-x="3000" data-y="0" data-scale=".5" data-rotate="90" data-trasition-duration="500">
         <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
     </div>
 
@@ -114,7 +70,7 @@
         <span class="footnote">* beat that, prezi ;)</span>
     </div>
 
-    <div class="step slide" data-x="5000" data-z="-100" data-rotate-x="-40" data-rotate-y="180" data-y="0">
+    <div class="step slide" data-x="5000" data-z="-100" data-rotate-x="-40" data-rotate-y="180" data-y="0" data-trasition-duration="500">
         <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
     </div>
     -->
@@ -131,9 +87,7 @@ if ("ontouchstart" in document.documentElement) {
 }
 </script>
 
-<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="../../js/impress.js"></script>
-<script src="../../js/wsu.js"></script>
 <script>impress().init();</script>
 
 

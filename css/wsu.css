@@ -1,0 +1,26 @@
+div.step.slide {
+    background: url(http://images.wsu.edu/index-images/bg-header.jpg) no-repeat;
+    background-color: #fff;
+    background-position: right bottom;
+}
+
+div.wsu-footer {
+    position: absolute;
+    margin-top: 538px;
+    margin-left: -60px;
+}
+
+div.wsu-wrapper {
+    position: absolute;
+}
+
+p.wsu-page {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+hr.wsu-hr {
+    border: 1px solid rgba(150,30,49,.50);
+    width: 896px;
+}
